@@ -1,0 +1,55 @@
+var1 := 0;
+var2 := 1 + 1;
+
+read var1;
+read var2;
+
+if var1 < var2 then
+    print 1;
+
+
+if var2 > var1 then
+    print 1;
+elseif var1 > 2 then
+    print 2;
+else
+    print 3;
+end
+
+if var2 > var then
+    print 1 + 2;
+    if var < 4 then
+        while var < 4 do
+            print 3;
+            var := var + 1;
+            continue
+        end
+        print 44;
+        endif
+end
+
+bool := true;
+
+while bool = true do
+    print 7;
+    break
+endwhile
+
+while bool = 1 do
+    print 7;
+    break
+end
+
+read A;
+read B;
+
+while B#0 do
+    C := A % B;
+    A := B;
+    B := C;
+    continue
+endwhile
+
+print C;
+
+end
